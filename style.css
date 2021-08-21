@@ -1,0 +1,103 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+.nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    margin:0;
+    padding: 0;
+    font-size:  22px;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    position: absolute;
+    letter-spacing: 1px;
+    float: right;
+    background-color: white;
+    border-style: solid;
+    border: black;
+    border-radius: 7px;
+    line-height: 130px;
+    padding: 0 10px;
+}
+
+.menu{
+    position: absolute;
+    left: 270px;
+    line-height: 50px;
+    margin: 0;
+    border: black;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: white;
+    width: 60%;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: lighter;
+    border-radius: 7px;
+    border: black;
+    border-style: solid;
+    background-color: white;
+    width: 600px;
+    height: 455px;
+}
+
+.header span{
+    font-size: 52px;
+    color:rgb(0, 0, 0);
+}
+
+.header p{
+    font-size: 25px;
+}
+
+.header button{
+    color:#000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: none;
+    font-size: 22px;
+}
+
+.imagem{
+    position: absolute;
+    top: 60%;
+    left: 365px;
+}
+
+body .background{ opacity: 45%;}
